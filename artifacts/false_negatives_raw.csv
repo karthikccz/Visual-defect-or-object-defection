@@ -1,0 +1,6 @@
+filename,true_label,predicted_label,predicted_confidence,true_class_confidence
+inclusion_6.jpg,inclusion,pitted_surface,0.9516643285751343,0.04211394488811493
+inclusion_228.jpg,inclusion,pitted_surface,0.5027524828910828,0.3597549796104431
+pitted_surface_176.jpg,pitted_surface,crazing,0.6681238412857056,0.17593449354171753
+inclusion_240.jpg,inclusion,pitted_surface,0.8557307720184326,0.14196379482746124
+pitted_surface_201.jpg,pitted_surface,inclusion,0.4913422763347626,0.4760448932647705

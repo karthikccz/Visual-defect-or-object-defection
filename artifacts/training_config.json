@@ -1,0 +1,15 @@
+{
+  "backbone": "MobileNet (Keras, ImageNet-pretrained, alpha=0.5, 128x128 input, frozen)",
+  "backbone_params": 829536,
+  "head_architecture": "Dense(128, relu) -> Dropout(0.3) -> Dense(6, softmax)",
+  "input_image_size": 128,
+  "batch_size": 64,
+  "epochs_run": 30,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "seed": 42,
+  "best_checkpoint_epoch": 3,
+  "best_val_macro_f1": 1.0,
+  "selection_rule": "checkpoint with highest validation macro-F1 across training; test set never used for selection",
+  "n_augmented_train_copies_per_image": 2
+}
